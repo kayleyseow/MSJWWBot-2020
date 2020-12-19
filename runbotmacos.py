@@ -1,3 +1,4 @@
+#Dylan's original bot code to run on not Windows, for 2020
 import instabot
 import time
 import random
@@ -6,7 +7,6 @@ import os
 def main():
 	bot = instabot.Bot()
 	bot.login()
-
 	counter = 0
 	os.system("cp msjww.jpg msjwwcopy.jpg")
 
