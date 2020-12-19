@@ -13,7 +13,7 @@ def main(): #comments found on runbotwindows.py
     counter = 1;
 
     while(True): #comments found on runbotwindows.py
-        commentversion = random.randrange(1, 5)
+        commentversion = random.randrange(1, 5) #randomly select a comment
         if commentversion == 1:
             bot.upload_photo("msjwwcopy.jpg", caption="#msjww20")
         elif commentversion == 2:
