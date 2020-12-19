@@ -4,7 +4,6 @@ import time
 import random
 import os
 
-
 def main(): #comments found on runbotwindows.py
     bot = instabot.Bot()
     bot.login()
