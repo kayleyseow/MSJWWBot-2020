@@ -1,4 +1,5 @@
 #Dylan's original bot code to run on not Windows, for 2020
+#This program is not commented but performs like the Windows bot, and there are comments on there
 import instabot
 import time
 import random
