@@ -1,5 +1,6 @@
 # MSJWWBot 2020  
 **The 2020 version of [Dylan](https://github.com/Dylan102938)'s [winter week bot from 2019](https://github.com/Dylan102938/msjwwBot).** I forked his repository and modified my automation off of his original code.  
+**Shortcuts: [About](https://github.com/kayleyseow/MSJWWBot-2020#about), [Repository Navigation](https://github.com/kayleyseow/MSJWWBot-2020#repository-navigation), [Run The Automation](https://github.com/kayleyseow/MSJWWBot-2020#run-the-automation), [Demo](https://github.com/kayleyseow/MSJWWBot-2020#demo), [Further Hacking](https://github.com/kayleyseow/MSJWWBot-2020#further-hacking).**
 
 ## About
 This repository contains the code for multiple automatic bots for posting the #msjww20 hashtag on Instagram.
