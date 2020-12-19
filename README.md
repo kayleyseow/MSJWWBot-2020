@@ -27,7 +27,7 @@ Slight disclaimer: I use the Windows OS, but followed the MacOS instructions to 
    ```bash 
    cd Desktop 
    ```
-4. Clone this repository. If the below command does not work, you can manually download the zip file by pressing the top green "Clone or Download" button located in the top right corner of the page and move the unzipped folder to your Desktop.
+4. Clone this repository. If the below command does not work, you can manually [download the zip file](https://github.com/kayleyseow/MSJWWBot-2020/archive/master.zip) by pressing the `Download ZIP` option under the dropdown menu under the green `Code` button located in the top right corner of the page and move the unzipped folder to your Desktop.
    ```bash
    git clone https://github.com/kayleyseow/MSJWWBot-2020.git
    ```
