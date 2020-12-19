@@ -4,14 +4,14 @@ import time
 import random
 import os
 
-def main():
+def main(): #comments found on runbotwindows.py
     bot = instabot.Bot()
     bot.login()
     pauseseconds = random.randrange(40, 60, 1)
     counter = 1
 
-    while(True):
-        photoversion = random.randrange(1, 6);
+    while(True): #comments found on runbotwindows.py
+        photoversion = random.randrange(1, 6); #randomizes output; school advantage depending on upper bound
         if photoversion == 1: #Irvington
             os.system("copy ihsww.jpg ihswwcopy.jpg")
             bot.upload_photo("ihswwcopy.jpg", caption="#ihsww20")
@@ -58,5 +58,5 @@ def main():
             pauseseconds = random.randrange(40, 60, 1)
             os.system("del \\f msjwwcopy.jpg.REMOVE_ME")
 
-if __name__ == "__main__":
+if __name__ == "__main__": #comments found on runbotwindows.py
 	main()
