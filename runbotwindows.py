@@ -24,4 +24,4 @@ def main():
         os.system("copy msjww.jpg msjwwcopy.jpg") #copy the photo again for the next round
 
 if __name__ == "__main__":
-	main() #run main
+	main() #run the bot
