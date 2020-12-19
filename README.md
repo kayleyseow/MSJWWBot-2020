@@ -15,46 +15,36 @@ This repository contains the code for multiple automatic bots for posting the #m
 ## Run The Bot  
 **The directions below are directly copied from the [msjwwBot](https://github.com/Dylan102938/msjwwBot) repository and modified to fit [MSJWWBot 2020](https://github.com/kayleyseow/MSJWWBot-2020).**
 ### How To Run On MacOS
-1. Check if Python is installed on your machine. Open a terminal window and type
-    * ```bash python --version```
-If you receive an error, type
-```bash
-python3 --version
-```
-If you receive an error for both, install python from the link below. If a python version is displayed, skip the next step.
-
-2. Install Python
-https://www.python.org/ftp/python/3.7.6/python-3.7.6-macosx10.9.pkg
-
+1. Check if Python is installed on your machine. Open a terminal window and type:
+      * ```python --version```
+   * If you receive an error, type:
+      * ```python3 --version```
+   * If you receive an error for both, install python from the link below. If a python version is displayed, skip the next step.
+2. Install Python at https://www.python.org/ftp/python/3.7.6/python-3.7.6-macosx10.9.pkg.  
 3. Change directory to Desktop.
-```bash
-cd Desktop
-```
-
+   ```bash 
+   cd Desktop 
+   ```
 4. Clone this repository. If the below command does not work, you can manually download the zip file by pressing the top green "Clone or Download" button located in the top right corner of the page and move the unzipped folder to your Desktop.
-```bash
-git clone https://github.com/Dylan102938/msjwwBot.git
-```
-
-5. Change directory to msjwwBot
-```bash
-cd msjwwBot
-```
-
+   ```bash
+   git clone https://github.com/kayleyseow/MSJWWBot-2020.git
+   ```
+5. Change directory to MSJWWBot-2020
+   ```bash
+   cd MSJWWBot-2020
+   ```
 6. Install the instabot library.
-```bash
-pip install instabot
-```
-Alternatively, if that doesn't work, run
-```bash
-pip3 install instabot
-```
-
-7. If you used pip3, type the below command with python3 as opposed to python.
-```bash
-python runbot.py
-```
-
+   ```bash
+   pip install instabot
+   ```
+   * Alternatively, if that doesn't work, run:
+      ```bash
+      pip3 install instabot
+      ```
+7. If you used pip3, type the below command with ```python3``` as opposed to ```python`.
+   ```bash
+   python runbot.py
+   ```
 8. Follow the instructions on screen to log into a bot Instagram account.
 ### How To Run On Windows
 ## Demo
