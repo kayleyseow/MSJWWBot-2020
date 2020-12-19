@@ -1,5 +1,5 @@
 # MSJWWBot 2020  
-**The 2020 version of [Dylan](https://github.com/Dylan102938)'s [winter week bot from 2019](https://github.com/Dylan102938/msjwwBot).** I forked his repository and modified my bots off of his original code.  
+**The 2020 version of [Dylan](https://github.com/Dylan102938)'s [winter week bot from 2019](https://github.com/Dylan102938/msjwwBot).** I forked his repository and modified my automation off of his original code.  
 
 ## About
 This repository contains the code for multiple automatic bots for posting the #msjww20 hashtag on Instagram.
@@ -12,7 +12,7 @@ This repository contains the code for multiple automatic bots for posting the #m
 - [```runbotspeed.py```](https://github.com/kayleyseow/MSJWWBot-2020/blob/master/runbotspeed.py) is a modified version of [```runbotwindows.py```](https://github.com/kayleyseow/MSJWWBot-2020/blob/master/runbotwindows.py). This bot increases the speed at which images are posted to the Instagram account — best suited for a time crunch.
 - [```runbotspeedcomments.py```](https://github.com/kayleyseow/MSJWWBot-2020/blob/master/runbotspeedcomments.py) is a modified version of [```runbotspeed.py```](https://github.com/kayleyseow/MSJWWBot-2020/blob/master/runbotspeed.py). Think of this as the ultimate final form of the bot. In addition to an increased posting time, this bot also includes a variety of randomized comments.
 
-## Run The Bot  
+## Run The Automation  
 **The directions below are directly copied from the [msjwwBot](https://github.com/Dylan102938/msjwwBot) repository and modified to fit [MSJWWBot 2020](https://github.com/kayleyseow/MSJWWBot-2020).**  
 Slight disclaimer: I use the Windows OS, but followed the MacOS instructions to run the automation because I already had Python installed.  
 ### How To Run On MacOS
@@ -30,7 +30,7 @@ Slight disclaimer: I use the Windows OS, but followed the MacOS instructions to 
    ```bash
    git clone https://github.com/kayleyseow/MSJWWBot-2020.git
    ```
-5. Change directory to MSJWWBot-2020
+5. Change directory to MSJWWBot-2020:  
    ```bash
    cd MSJWWBot-2020
    ```
@@ -46,7 +46,7 @@ Slight disclaimer: I use the Windows OS, but followed the MacOS instructions to 
    ```bash
    python runbot.py
    ```
-8. Follow the instructions on screen to log into a bot Instagram account.
+8. Follow the instructions on screen to log into an Instagram account you plan to automate.
 ### How To Run On Windows
 1. Install Conda from the following link: https://repo.anaconda.com/miniconda/Miniconda3-latest-Windows-x86_64.exe.
 2. Type Miniconda into your Windows search bar located on the bottom left corner of your screen. Press enter. You should see a black, command-prompt like display.
@@ -69,9 +69,20 @@ Slight disclaimer: I use the Windows OS, but followed the MacOS instructions to 
      ```bash
      pip install instabot
      ```
-9. Run the bot file and follow the instructions on screen.
+9. Run the automation file and follow the instructions on screen.
      ```bash
      python runbotwindows.py
      ```
 ## Demo
+From what I have seen, the captions for the automated posting stopped working at around 400 posts. Some examples of automated posting are [@winter_week_2020](https://www.instagram.com/winter_week_2020/) and [@winter_week_2020_2](https://www.instagram.com/winter_week_2020_2/).  
+<img src="https://cloud-opyxb0uq8.vercel.app/0image.png" alt="Photo of an automated account" width=41.5%/><img src="https://cloud-opyxb0uq8.vercel.app/1image.png" alt="Photo of an automated post" width=58.5%/>
 ## Further Hacking
+- Automation can be modified for future use. In the code, only the caption and file names need to be changed — everything else should work flawlessly
+- New Features:
+     - Display of the elapsed time of automation
+     - Quit function to break the automation out of the loop
+     - Set a number posts instead of having the automation run 
+- Expanding On Current Features:
+     - Addition of more comments
+     - Further randomized posting times
+- For this automation, Instabot was used (only the ```login()``` function). To further expand on the automation, you can look through the [Instabot docs](https://instagrambot.github.io/docs/en/) and take a look through the [Instabot intstructions for use](https://instagrambot.github.io/docs/en/How_to_use.html) for the other functions and parameters in order to add functionality to the automation. 
